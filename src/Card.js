@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Card = ({ name, email, id}) => {
 	return(
 		<div className = 'grow dib tc f3-ns no-underline bg-light-green black-90 pa5 ma3 br4 ba shadow-5' >
