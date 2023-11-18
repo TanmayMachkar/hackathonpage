@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hackathonpage/static/css/main.e6badad5.css",
-    "main.js": "/hackathonpage/static/js/main.8e9c8713.js",
+    "main.css": "/hackathonpage/static/css/main.5e2c77e3.css",
+    "main.js": "/hackathonpage/static/js/main.fe21a920.js",
     "static/js/787.8b0d5240.chunk.js": "/hackathonpage/static/js/787.8b0d5240.chunk.js",
     "static/media/SEGA.woff": "/hackathonpage/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
     "index.html": "/hackathonpage/index.html",
-    "main.e6badad5.css.map": "/hackathonpage/static/css/main.e6badad5.css.map",
-    "main.8e9c8713.js.map": "/hackathonpage/static/js/main.8e9c8713.js.map",
+    "main.5e2c77e3.css.map": "/hackathonpage/static/css/main.5e2c77e3.css.map",
+    "main.fe21a920.js.map": "/hackathonpage/static/js/main.fe21a920.js.map",
     "787.8b0d5240.chunk.js.map": "/hackathonpage/static/js/787.8b0d5240.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6badad5.css",
-    "static/js/main.8e9c8713.js"
+    "static/css/main.5e2c77e3.css",
+    "static/js/main.fe21a920.js"
   ]
 }
