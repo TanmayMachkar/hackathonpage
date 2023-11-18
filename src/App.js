@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox';
 import { robots } from './robots';
+import SocialFollow from './SocialFollow';
 import './App.css';
 
 class App extends Component {
@@ -23,9 +24,12 @@ class App extends Component {
 		})
 		return(
 			<div className='tc'>
-				<h1 className='f1 pa2 ba bg-black'>Cult.Code</h1>
+				<a rel="noreferrer" style={{textDecoration: 'none'}} href="https://cultcode.framer.website/" target="_blank">
+					<h1 className='f1 pa2 ba bg-black pointer link dim'>Cult.Code</h1>
+				</a>
 				<SearchBox searchChange={this.onSearchChange}/>
 				<CardList robots = {filteredRobots} />
+			    <SocialFollow />
 			</div>
 		);
 	}
