@@ -8,10 +8,10 @@ import {
 
 const Card = ({ name, email, id, hrefinsta, hreflinkedin, hrefgithub}) => {
 	return(
-		<div className = 'grow dib tc f3-ns no-underline bg-light-green black-90 pa5 ma3 br4 ba shadow-5' >
+		<div class="cards" className = 'grow dib tc f3-ns no-underline bg-light-green black-90 pa2 ma3 br4 ba shadow-5' >
 			<img alt = 'robots' src ={`https://robohash.org/${Math.random()}?200x200`}/>
 			<div>
-				<h2>{name}</h2>
+				<h2 class="name" >{name}</h2>
 				<div class="container">
 			        <div class="contact-wrapper load-hidden">
 			          <a

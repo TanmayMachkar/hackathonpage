@@ -6,9 +6,25 @@
 }
 
 h1 {
+    display: flex;
     font-family: 'SEGA LOGO FONT';
     font-weight: 200;
+    justify-content: center;
     color: #00FFFF;
+}
+
+.sb{
+  display: flex;
+  justify-content: center;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-family: "Gill Sans", sans-serif;
 }
 
 .container{
@@ -29,6 +45,8 @@ a.gmail:hover{
 }
 
 .social-container {
+  display: flex;
+  justify-content: center;
   background: #292929;
   padding: 25px 50px;
 }
@@ -48,16 +66,18 @@ a.github {
 }
 
 a.linkedin {
-  color: white;
+  color: royalblue;
 }
 
 a.instagram {
-  color: white;
+  color: indianred;
 }
 
 .social-container1 {
+  display: flex;
+  justify-content: center;
   background: white;
-  padding: 25px 50px;
+  padding: 20px 10px;
 }
 
 a.social1 {

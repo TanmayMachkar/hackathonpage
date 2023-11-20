@@ -25,7 +25,7 @@ class App extends Component {
 		return(
 			<div className='tc'>
 				<a rel="noreferrer" style={{textDecoration: 'none'}} href="https://cultcode.framer.website/" target="_blank">
-					<h1 className='f1 pa2 ba bg-black pointer link dim'>Cult.Code</h1>
+					<h1 className='tc f1 pa2 ba bg-black pointer link dim'>Cult.Code</h1>
 				</a>
 				<SearchBox searchChange={this.onSearchChange}/>
 				<CardList robots = {filteredRobots} />
